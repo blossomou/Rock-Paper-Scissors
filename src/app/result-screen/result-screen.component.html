@@ -1,0 +1,28 @@
+<StackLayout class="background">
+    <StackLayout>
+        <Label class="lbl_title" text="Result screen"></Label>
+    </StackLayout>
+
+    <StackLayout orientation="horizontal" margin="0 0 0 10">
+        <!--Player-->
+        <StackLayout class="stacklayout_player">
+            <Label class="lbl_instruction" text="Player's Choice"></Label>
+            <Image class="img_size" [src]="userChoice"></Image>
+
+        </StackLayout>
+
+        <!--Computer-->
+        <StackLayout class="stacklayout_player">
+            <label class="lbl_instruction" text="Computer's Choice"></label>
+            <Image class="img_size" [src]="computerChoice"></Image>
+        </StackLayout>
+
+    </StackLayout>
+    <StackLayout>
+        <Label class="lbl_instruction" text="Result:"></Label>
+        <Label class="lbl_title" [text]="result"></Label>
+    </StackLayout>
+
+
+    
+</StackLayout>

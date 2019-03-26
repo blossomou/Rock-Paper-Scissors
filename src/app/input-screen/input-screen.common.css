@@ -1,0 +1,28 @@
+.background {
+    background-color: #f1e2c9;
+}
+
+.lbl_title{
+    font-size: 25em;
+    font-weight: bold;
+    horizontal-align: center;
+    margin: 20 0 10 0;
+}
+
+.lbl_instruction {
+    margin: 20 0 0 10;
+}
+
+.img_size{
+    margin: 30 0 0 0;
+    width: 250px;
+    height: 250px;
+}
+.loading{
+
+    background-color: tan;
+    opacity: .5;
+    width:8%;    
+    vertical-align: center;
+
+}

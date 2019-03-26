@@ -1,0 +1,15 @@
+<GridLayout rows="*" columns="*" class="background" height="100%">
+     
+    <StackLayout>
+        <StackLayout>
+            <Label class="lbl_title" text="Rock Paper Scissors"></Label>
+            <Label class="lbl_instruction" text="Direction: Choose of the following and compete with the computer!" textwrap="true"></Label>
+        </StackLayout>
+
+        <StackLayout row="1" column="0" *ngFor="let item of items" [value]="item.value" (tap)="onTapShoot($event)">
+            <Image class="img_size" [src]="item.src" stretch="aspectFit"></Image>
+        </StackLayout>
+    </StackLayout>
+
+    <ActivityIndicator #activityIndicator [busy]="busy"></ActivityIndicator>
+</GridLayout>
