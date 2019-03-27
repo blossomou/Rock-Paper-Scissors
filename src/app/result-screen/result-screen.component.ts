@@ -27,5 +27,8 @@ export class ResultScreenComponent implements OnInit {
         // Init your component properties here.
     }
 
+    public onTapRematch(){
+        this.router.navigate(["/input-screen"]);
+    }
    
 }
